@@ -36,8 +36,8 @@ npm i -D ts-node typescript nodemon @types/node @types/express # this will move 
 ##### Scripts
 ```json
 "scripts": {
-    "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
-    "build": "tsc -p ."
+    "start": "node dist/app.js", # run production server
+    "dev": "nodemon src/app.ts", # run dev server
+    "build": "tsc -p ." # build .ts to .js inside tsconfig.json outDir
 }
 ```
